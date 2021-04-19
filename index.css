@@ -15,7 +15,7 @@ button {
     margin-top: 15px;
 }
 ul {
-    margin-left:200px;
+    margin-left:150px;
     
 }
 li {
@@ -62,9 +62,13 @@ img {
 }
 #box {
    
-  border: 1px solid white;
-  padding: 30px;
-  margin: 55px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 50px;
+  resize: both;
+  overflow: auto;
+  width: 100%;
+  height: 1000%;
 }
 #app10 {
     padding-bottom: 130px;
@@ -75,4 +79,7 @@ form1 {
 }
 #app11 {
     margin-top: 50px;
+}
+#app12  {
+    margin-top: 60px;
 }
