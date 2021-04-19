@@ -61,11 +61,13 @@ img {
     padding-bottom: 80px;    
 }
 #box {
-    width: 1250px;
+   
   border: 1px solid white;
   padding: 30px;
   margin: 55px;
-  height: 2000px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(file:///C:/Users/admin/Desktop/UI/index.html/css-background-image-size-fit-full-screen.jpg) no-repeat;
 }
 #app10 {
     padding-bottom: 130px;
