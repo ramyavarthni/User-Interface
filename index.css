@@ -75,7 +75,8 @@ form1 {
 }
 @media only screen and (max-width: 600px) {
     #box {
-      background-color: lightblue;
+        width:100%;
+        height:100%;    
     }
   }
   
