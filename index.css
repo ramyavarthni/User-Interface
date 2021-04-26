@@ -40,7 +40,7 @@ li {
     height: 50px;
     width: 130px;
 }
-img {
+#add{
     margin-right:100px;
     margin-top: 80px;
 }
@@ -52,7 +52,7 @@ img {
 }
 #app6 {
     margin-left: 50px;
-    padding-left: 20px;
+    padding-left: 10px;
    text-align: center;
 }
 #app10 {
@@ -71,4 +71,50 @@ form1 {
 #box {
     resize:both;
     overflow: auto;
+}
+@media screen and (max-width: 800px) {
+    div.example {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
+
+  @media (max-width: 575.98px) {
+    .custom-class {
+        display: block;
+   }
+}
+
+@media (min-width: 576px) { 
+    div.example {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+ }
+
+
+@media screen and(max-width: 768px) { 
+    div.example {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+ }
+
+
+@media (min-width: 992px) {
+    div.example {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+ }
+
+@media (min-width: 1200px) {
+ div.example {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+@viewport {
+    zoom: 1.0;
+    width: extentd-to-zoom;
+}
+@-ms-viewport {
+    width: extentd-to-zoom;
+    zoom:1.0;
 }
